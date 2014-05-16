@@ -1,0 +1,9 @@
+{
+  "name": "linkrels",
+  "description": "Generates a JSON-LD Context from the current IANA Link Relations Registry",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x"
+  }
+}
