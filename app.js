@@ -2,7 +2,7 @@ var port = (process.env.VCAP_APP_PORT || 3000);
 var http = require('http');
 var express = require('express');
 
-var prefix = "http://www.iana.org/assignments/link-relations/";
+var prefix = "http://www.iana.org/assignments/link-relations#";
 var data;
 
 function fetch(cb) {
